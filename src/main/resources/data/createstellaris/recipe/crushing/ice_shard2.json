@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:packed_ice"
+    }
+  ],
+  "processing_time": 1000,
+  "results": [
+    {
+      "id": "stellaris:ice_shard",
+      "count": 4
+    }
+  ]
+}

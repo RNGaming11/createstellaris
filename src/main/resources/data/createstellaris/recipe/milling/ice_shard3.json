@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_ice"
+    }
+  ],
+  "processing_time": 800,
+  "results": [
+    {
+      "id": "stellaris:ice_shard",
+      "count": 6
+    }
+  ]
+}

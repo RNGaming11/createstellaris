@@ -1,0 +1,90 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "stellaris:steel_ingot"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 95.0,
+      "id": "stellaris:rocket"
+    },
+    {
+      "chance": 10.0,
+      "id": "stellaris:steel_ingot"
+    },
+    {
+      "chance": 8.0,
+      "id": "stellaris:rocket_engine"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:rocketincomplete"
+        },
+        {
+          "item": "stellaris:rocket_nose_cone"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketincomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:rocketincomplete"
+        },
+        {
+          "item": "stellaris:steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketincomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:rocketincomplete"
+        },
+        {
+          "item": "stellaris:rocket_fin"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketincomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:rocketincomplete"
+        },
+        {
+          "item": "stellaris:rocket_engine"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketincomplete"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createstellaris:rocketincomplete"
+  }
+}

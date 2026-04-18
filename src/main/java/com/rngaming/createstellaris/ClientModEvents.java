@@ -1,0 +1,21 @@
+package com.rngaming.createstellaris;
+
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+
+@EventBusSubscriber(value = Dist.CLIENT) // Geen bus of modid meer hier
+public class ClientModEvents {
+
+    @SubscribeEvent
+    public static void onClientSetup(FMLClientSetupEvent event) {
+        // Client setup logica
+    }
+
+    @SubscribeEvent
+    public static void registerArmorRenderers(EntityRenderersEvent.AddLayers event) {
+        // Je model registratie
+    }
+}
