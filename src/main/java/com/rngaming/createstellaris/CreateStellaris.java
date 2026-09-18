@@ -2,7 +2,6 @@ package com.rngaming.createstellaris;
 
 import com.rngaming.createstellaris.items.Items;
 import com.rngaming.createstellaris.ponder.CSPonderPlugin;
-import com.rngaming.createstellaris.ponder.CSPonders;
 import net.createmod.ponder.foundation.PonderIndex;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
@@ -29,7 +28,6 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 public class CreateStellaris {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "createstellaris";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
