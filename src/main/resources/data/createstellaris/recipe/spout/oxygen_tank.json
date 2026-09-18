@@ -1,0 +1,25 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "stellaris:oxygen_tank"
+    },
+    {
+      "fluid": "stellaris:oxygen",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "id": "stellaris:oxygen_tank",
+      "components": {
+        "stellaris:fluid_list": [
+          {
+            "fluid": "stellaris:oxygen",
+            "amount": 1000
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "values": {
+    "stellaris:uranium_ingot": {
+      "burn_time": 5000
+    },
+    "stellaris:uranium_block": {
+      "burn_time": 8000
+    }
+  }
+}

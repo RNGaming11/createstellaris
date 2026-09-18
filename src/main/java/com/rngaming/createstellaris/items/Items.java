@@ -14,6 +14,8 @@ public class Items {
     public static final DeferredItem<Item> ENGINEFANINCOMPLETE = ITEMS.register("enginefanincomplete", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROCKETENGINEINCOMPLETE = ITEMS.register("rocketengineincomplete", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROCKETINCOMPLETE = ITEMS.register("rocketincomplete", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ROCKETFININCOMPLETE = ITEMS.register("rocketfinincomplete", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ROCKETNOSECONEINCOMPLETE = ITEMS.register("rocketnoseconeincomplete", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

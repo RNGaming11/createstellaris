@@ -1,0 +1,19 @@
+[[mods]] #mandatory
+modId = "createstellaris" #mandatory
+version = "1.6.0" #mandatory
+displayName = "Create: Stellaris" #mandatory
+logoFile = "icon.png"
+
+[[dependencies.createstellaris]]
+modId = "create"
+type="required"
+versionRange="${create_version_range}"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.createstellaris]]
+modId = "stellaris"
+type="required"
+versionRange="${stellaris_version_range}"
+ordering = "AFTER"
+side = "BOTH"

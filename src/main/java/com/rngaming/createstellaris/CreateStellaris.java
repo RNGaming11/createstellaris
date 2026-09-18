@@ -95,4 +95,7 @@ public class CreateStellaris {
             PonderIndex.addPlugin(new CSPonderPlugin());
         }
     }
+    public static ResourceLocation path(final String path) {
+        return ResourceLocation.tryBuild(MODID, path);
+    }
 }

@@ -1,0 +1,54 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "stellaris:steel_ingot"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "stellaris:rocket_fin"
+    },
+    {
+      "chance": 8.0,
+      "id": "stellaris:steel_ingot"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:rocketfinincomplete"
+        },
+        {
+          "item": "stellaris:steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketfinincomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:rocketfinincomplete"
+        },
+        {
+          "item": "stellaris:steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketfinincomplete"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createstellaris:rocketfinincomplete"
+  }
+}

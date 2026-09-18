@@ -1,0 +1,58 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "stellaris:steel_ingot"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 115.0,
+      "id": "stellaris:rocket_nose_cone"
+    },
+    {
+      "chance": 6.0,
+      "id": "stellaris:steel_ingot"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:enginefanincomplete"
+        },
+        {
+          "item": "stellaris:steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketnosecone"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createstellaris:enginefanincomplete"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "createstellaris:rocketnosecone"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createstellaris:rocketnosecone"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "values": [
+    "stellaris:coal_generator",
+    "stellaris:cable",
+    "stellaris:cable_t2",
+    "stellaris:cable_t3",
+    "stellaris:pipe_t1",
+    "stellaris:pipe_t2",
+    "stellaris:pipe_t3",
+    "stellaris:oxygen_distributor",
+    "stellaris:solar_panel",
+    "stellaris:radioactive_generator",
+    "stellaris:diesel_generator",
+    "stellaris:water_separator",
+    "stellaris:fuel_refinery",
+    "stellaris:water_pump",
+    "stellaris:vacuumator",
+    "stellaris:pumpjack",
+    "stellaris:antenna",
+    "stellaris:t1_tank",
+    "stellaris:t2_tank",
+    "stellaris:t3_tank",
+    "stellaris:t4_tank",
+    "stellaris:t1_bank",
+    "stellaris:t2_bank",
+    "stellaris:t3_bank",
+    "stellaris:t4_bank",
+    "stellaris:flag",
+    "stellaris:rocket_launch_pad"
+  ]
+}
